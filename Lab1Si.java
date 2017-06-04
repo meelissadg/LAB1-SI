@@ -14,4 +14,18 @@ public class Lab1Si {
 		return max;
 	}
 	
+	
+	public static int minimo(int[] array) {
+		int max = array[0];
+
+		for (int i : array) {
+			if (i < max) {
+				max = i;
+			}
+		}
+
+		return max;
+	}
+
+	
 }
